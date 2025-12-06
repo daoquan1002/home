@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quan.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Google Sans', 'Roboto', 'sans-serif'],
+              display: ['Roboto', 'sans-serif'], // Dành cho tiêu đề lớn
+            },
+            colors: {
+              // Material Design 3 Expressive Palette
+              'md-sys-primary': '#6750A4',
+              'md-sys-on-primary': '#FFFFFF',
+              'md-sys-primary-container': '#EADDFF',
+              'md-sys-on-primary-container': '#21005D',
+              
+              'md-sys-secondary': '#625B71',
+              'md-sys-on-secondary': '#FFFFFF',
+              'md-sys-secondary-container': '#E8DEF8',
+              'md-sys-on-secondary-container': '#1D192B',
+              
+              // Tertiary colors (Expressive accent - Pink/Raspberry tones)
+              'md-sys-tertiary': '#7D5260',
+              'md-sys-on-tertiary': '#FFFFFF',
+              'md-sys-tertiary-container': '#FFD8E4',
+              'md-sys-on-tertiary-container': '#31111D',
+
+              'md-sys-background': '#FFFBFE',
+              'md-sys-on-background': '#1C1B1F',
+              
+              // Surface variants for depth
+              'md-sys-surface': '#FFFBFE',
+              'md-sys-on-surface': '#1C1B1F',
+              'md-sys-surface-variant': '#E7E0EC',
+              'md-sys-on-surface-variant': '#49454F',
+              'md-sys-surface-container-low': '#F7F2FA',
+              'md-sys-surface-container': '#F3EDF7',
+              'md-sys-surface-container-high': '#ECE6F0',
+              
+              'md-sys-outline': '#79747E',
+              'md-sys-outline-variant': '#CAC4D0',
+            },
+            borderRadius: {
+              '4xl': '2rem',
+              '5xl': '2.5rem',
+            },
+            boxShadow: {
+              'elevation-1': '0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15)',
+              'elevation-2': '0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15)',
+              'elevation-3': '0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.3)',
+            }
+          },
+        },
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #FFFBFE;
+        color: #1C1B1F;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      /* Smooth Scroll */
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Hide Scrollbar for cleaner look but keep functionality */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #E7E0EC;
+        border-radius: 10px;
+      }
+      .material-symbols-rounded {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .material-symbols-rounded.filled {
+        font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/home/assets/index--h0yRGUI.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
