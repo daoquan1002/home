@@ -85,8 +85,8 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
           >
              <span className="material-symbols-rounded text-2xl">mail</span>
              <div>
-                <p className="text-sm font-bold">Thuê tôi ngay</p>
-                <p className="text-xs opacity-80">Sẵn sàng nhận dự án</p>
+                <p className="text-sm font-bold">Liên hệ</p>
+                <p className="text-xs opacity-80">Gửi Email</p>
              </div>
           </a>
           </div>
