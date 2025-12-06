@@ -43,10 +43,11 @@ const App: React.FC = () => {
       {/* 
          - Mobile/Tablet: overflow-y-auto ở đây (hoặc body), h-full. Padding bottom lớn để tránh bottom nav.
          - Desktop: overflow-y-auto riêng biệt, scroll-smooth để click menu mượt mà.
+         - Added 'scrollbar-hide' utility class here explicitly
       */}
       <div 
         id="main-content-scroll"
-        className="flex-1 w-full h-full overflow-y-auto overflow-x-hidden scroll-smooth bg-md-sys-background relative"
+        className="flex-1 w-full h-full overflow-y-auto overflow-x-hidden scroll-smooth bg-md-sys-background relative scrollbar-hide"
       >
         <div className="w-full max-w-[1600px] mx-auto pb-28 lg:pb-12">
            <Hero />
