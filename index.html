@@ -73,18 +73,13 @@
         scroll-behavior: smooth;
       }
       
-      /* Hide Scrollbar completely but keep functionality */
-      /* Chrome, Safari and Opera */
-      ::-webkit-scrollbar {
-        display: none;
-        width: 0;
-        height: 0;
-      }
-
-      /* IE, Edge and Firefox */
-      html, body, #main-content-scroll, * {
+      /* Utility Class to Hide Scrollbar safely */
+      .scrollbar-hide {
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
       }
 
       .material-symbols-rounded {
