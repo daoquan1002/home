@@ -14,11 +14,11 @@ export const Contact: React.FC = () => {
            </div>
            
            <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-md-sys-on-primary-container mb-6 md:mb-8 tracking-tight">
-            Liên hệ hợp tác?
+            Liên hệ
            </h2>
            
            <p className="text-lg md:text-xl text-md-sys-on-primary-container/80 mb-10 md:mb-12 font-medium max-w-2xl leading-relaxed">
-            Đừng ngần ngại. Hãy chia sẻ ý tưởng của bạn, và chúng ta sẽ cùng biến nó thành hiện thực.
+            Bạn có điều muốn nói, liên hệ để cùng nhau trao đổi thôi!
            </p>
            
            {/* Contact Actions */}
@@ -28,7 +28,7 @@ export const Contact: React.FC = () => {
                 className="w-full md:w-auto px-8 py-4 bg-md-sys-on-primary-container text-md-sys-primary-container rounded-full font-bold text-lg hover:shadow-elevation-3 hover:-translate-y-1 transition-all flex items-center justify-center gap-3"
               >
                   <span className="material-symbols-rounded">mail</span>
-                  <span>Gửi Email Ngay</span>
+                  <span>Gửi Email</span>
               </a>
            </div>
         </div>

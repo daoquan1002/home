@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
             {/* Chip */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 rounded-xl bg-md-sys-surface/10 backdrop-blur-md border border-white/20 text-xs md:text-sm font-bold text-white mb-6 w-fit shadow-sm">
                <span className="material-symbols-rounded text-base md:text-lg filled text-green-400">check_circle</span>
-               <span>Open to Work</span>
+               <span>Được xác minh</span>
             </div>
             
             {/* Expressive Display Text */}
@@ -43,7 +43,7 @@ export const Hero: React.FC = () => {
                     className="h-14 px-8 rounded-full bg-md-sys-primary-container text-md-sys-on-primary-container font-bold text-base hover:shadow-elevation-2 active:scale-95 transition-all flex items-center justify-center gap-2"
                  >
                     <span className="material-symbols-rounded">view_cozy</span>
-                    Xem Portfolio
+                    Xem Dự án
                  </button>
                  
                  <button 
