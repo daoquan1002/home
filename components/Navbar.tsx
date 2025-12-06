@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
         {/* Branding - PNG Logo */}
         <div className="mb-12 px-4 mt-6">
           <img 
-            src="https://raw.githubusercontent.com/daoquan1002/test/refs/heads/main/logo.png" 
+            src="https://raw.githubusercontent.com/daoquan1002/home/refs/heads/main/resources/logo.png" 
             alt="Logo" 
             className="h-16 w-auto object-contain"
           />
