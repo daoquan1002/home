@@ -3,8 +3,8 @@ import { PROJECTS } from '../constants';
 
 export const Projects: React.FC = () => {
   return (
-    <section id="projects" className="w-full">
-      <div className="mb-10 lg:mb-16">
+    <section id="projects" className="w-full px-6 lg:px-0">
+      <div className="mb-8 lg:mb-12">
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-md-sys-on-surface tracking-tight">
            Dự án <span className="text-md-sys-tertiary">Tiêu biểu</span>
         </h2>
